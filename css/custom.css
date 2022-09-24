@@ -1,0 +1,26 @@
+.title {
+    font-size: 1em;
+  }
+
+  .title-2 {
+    font-size: 0.9em;
+  }
+
+  .subtitle {
+    font-size: 0.78em;
+  }
+
+  .custom-margin {
+    margin-bottom: 1rem;
+  }
+
+  .custom-margin:last-child {
+    margin-bottom: 0px;
+  }
+
+  #toggle-content {
+    transition: all 0.5s ease;
+    max-height: 40vh;
+    overflow-y: auto;
+    position: relative;
+  }
